@@ -54,6 +54,7 @@ trip_planner/
 ├── tools/
 │   ├── search_tools.py      # Internet search via Serper API
 │   └── calculator_tools.py  # Math expression evaluator
+├── requirements.txt
 └── README.md
 ```
 
@@ -64,7 +65,7 @@ trip_planner/
 ### 1. Install dependencies
 
 ```bash
-pip install crewai streamlit python-dotenv requests
+pip install -r requirements.txt
 ```
 
 ### 2. Create a `.env` file
